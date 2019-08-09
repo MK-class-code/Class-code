@@ -5,10 +5,10 @@ public class Client {
 	 Koujyou koujyou1 = new TvKoujyou();
 	 Koujyou koujyou2 = new RadioKoujyou();
 	 Seihin[] array = new Seihin[3];
-	 array[0] = koujyou1.create();//テレビが生成される
-	 array[1] = koujyou2.create();//ラジオが生成される
-	 array[2] = koujyou1.create();//テレビが生成される
-	 for (int i = 0; i < array.length; ++i) {//完成品の詳細を表示
+	 array[0] = koujyou1.create();//テレビの生成
+	 array[1] = koujyou2.create();//ラジオの生成
+	 array[2] = koujyou1.create();//テレビの生成
+	 for (int i = 0; i < array.length; ++i) {//完成品の詳細表示
 	 array[i].print();
 	 }
 	 }
